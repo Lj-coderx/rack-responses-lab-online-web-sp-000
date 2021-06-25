@@ -7,7 +7,7 @@ def call(env)
     if time.hour < 12
       resp.write "Good Morning!"
     end
-    
+
     if time.hour > 12
       resp.write "Good Afternoon"
     end
